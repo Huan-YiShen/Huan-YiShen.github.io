@@ -13,10 +13,17 @@ Huan-YiShen.github.io/
 ├── _config.yml                # GitHub Pages config
 │
 ├── styles/                    # Stylesheets
-│   └── styles.css             # Main stylesheet with theme system
+│   ├── styles.css             # Stylesheet entrypoint
+│   ├── variables.css          # Theme tokens and color variables
+│   ├── base.css               # Global reset, typography, and defaults
+│   ├── layout.css             # Page shell, header, and major layouts
+│   ├── components.css         # Navigation, cards, timelines, and controls
+│   ├── construction.css       # Projects construction-state animation
+│   └── responsive.css          # Responsive layout adjustments
 │
 ├── js/                        # JavaScript files
 │   ├── content-loader.js      # Dynamic content loader
+│   ├── construction-animation.js # Projects construction-state behavior
 │   └── theme-settings.js      # Theme management (light/dark mode)
 │
 └── json/                      # Content data files
@@ -42,7 +49,7 @@ The `content-loader.js` script automatically loads content from these JSON files
 | Location | Purpose |
 |----------|---------|
 | Root `.html` files | HTML templates for each page (structure only) |
-| `styles/` | All CSS styling, theme definitions, responsive design |
+| `styles/` | Modular CSS files imported by `styles/styles.css` |
 | `js/` | JavaScript modules for functionality |
 | `json/` | Content data - edit these to update page content |
 
@@ -60,4 +67,4 @@ This structure is meant for GitHub Pages deployment.
 - Light/Dark mode toggle in Settings menu
 - Theme preference saved to browser localStorage
 - Uses system preference as fallback
-- CSS custom properties in `styles/styles.css` for colors
+- CSS custom properties in `styles/variables.css` for colors
