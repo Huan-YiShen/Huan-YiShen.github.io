@@ -1,0 +1,26 @@
+{
+  "section": "Intro",
+  "about": {
+    "eyebrow": "About",
+    "headline": "Researching Quantum Computing with Trapped Ions",
+    "bio": "I work at the intersection of computing, quantum information, and atomic physics. My research focuses on developing scalable quantum computing architectures using trapped ions.",
+    "cta": [
+      { "label": "View projects", "href": "page_projects.html", "style": "secondary" },
+      { "label": "Read CV", "href": "page_cv.html", "style": "secondary" }
+    ]
+  },
+  "stats": [
+    {
+      "value": "5+",
+      "label": "Years of study and practice"
+    },
+    {
+      "value": "12",
+      "label": "Selected projects"
+    },
+    {
+      "value": "3",
+      "label": "Primary domains"
+    }
+  ]
+}

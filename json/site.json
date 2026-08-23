@@ -1,0 +1,10 @@
+{
+  "name": "Huan Yi Shen",
+  "title": "Huan Yi Shen - Portfolio",
+  "description": "Academic portfolio of Huan Yi Shen",
+  "navigation": [
+    { "label": "Intro", "href": "page_intro.html", "id": "intro" },
+    { "label": "Projects", "href": "page_projects.html", "id": "projects" },
+    { "label": "CV", "href": "page_cv.html", "id": "cv" }
+  ]
+}

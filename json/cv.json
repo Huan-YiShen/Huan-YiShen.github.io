@@ -1,0 +1,95 @@
+{
+  "section": "CV",
+  "heading": "Curriculum vitae",
+  "skills": {
+    "eyebrow": "Tools",
+    "list": [
+      "Python",
+      "C++",
+      "GO Lang",
+      "Git",
+      "Java",
+      "VSCode",
+      "Linux",
+      "RustDesk",
+      "ARTIQ",
+      "Jupyter",
+      "LaTeX",
+      "Markdown",
+      "Verilog",
+      "Mini partition tool",
+      "Xilinx Vivado",
+      "onshape",
+      "3D printing"
+    ]
+  },
+  "research_experience": [
+    {
+      "id": 3,
+      "dateRange": "2025 - (present)",
+      "role": "Graduate Research Assistant",
+      "institution": "Institute for Quantum Computing",
+      "description": "Trapped-ion quantum computation and simulation"
+    },
+    {
+      "id": 3,
+      "dateRange": "2024 - 2024",
+      "role": "Undergraduate RA, full-time intern",
+      "institution": "Institute for Quantum Computing",
+      "description": "Quantum sensing and control with time-bin encoding"
+    },
+    {
+      "id": 2,
+      "dateRange": "2023 - 2024",
+      "role": "Undergraduate RA, part-time",
+      "institution": "Institute for Quantum Computing",
+      "description": "Image processing, GUI development"
+    },
+    {
+      "id": 1,
+      "dateRange": "2021 - 2021",
+      "role": "6G Wireless Technology RnD, Intern ",
+      "institution": "Communication Research Center Canada",
+      "description": "Engineered Electromagnetic Surface"
+    }
+  ],
+  "work_experience": [
+    {
+      "id": 3,
+      "dateRange": "2023 - 2023",
+      "role": "Platform Software Engineer, Intern",
+      "company": "Ford Motor Company",
+      "description": "In vehicle infotainment system and networking"
+    },
+    {
+      "id": 2,
+      "dateRange": "2022 - 2022",
+      "role": "Software Engineer, Intern",
+      "company": "PointClickCare",
+      "description": "System of Intelligence"
+    },
+    {
+      "id": 1,
+      "dateRange": "2021 - 2021",
+      "role": "Bioinformatic web Developer, Intern",
+      "company": "University of Waterloo - Doxey Lab",
+      "description": "Image analysis tooling for point-of-care applications"
+    }
+  ],
+  "education": [
+    {
+      "id": 2,
+      "dateRange": "2025 - 2027",
+      "institution": "University of Waterloo, Canada",
+      "program": "MSc. Physics, Quantum Information Science",
+      "description": "Focused on trapped-ion quantum computing and controls"
+    },
+    {
+      "id": 1,
+      "dateRange": "2020 - 2025",
+      "institution": "University of Waterloo, Canada",
+      "program": "BASc. Honours, Co-op, Computer Engineering",
+      "description": "Focused on system software, computer architecture, and quantum engineering"
+    }
+  ]
+}
