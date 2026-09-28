@@ -77,16 +77,32 @@ function loadProjectsContent(data) {
   if (grid) {
     grid.innerHTML = data.projects
       .map(
-        (project) => `
+        (project) => {
+          const image = project.image
+            ? `<img class="project-image" src="${project.image}" alt="${project.title} preview" loading="lazy">`
+            : '<div class="project-image-placeholder" aria-hidden="true"></div>';
+          const repositories = (project.repositories || [])
+            .map(
+              (repository) =>
+                `<a class="project-link" href="${repository.url}" target="_blank" rel="noopener noreferrer">${repository.label}</a>`
+            )
+            .join('');
+
+          return `
       <article class="project-card">
-        <div class="eyebrow">${project.eyebrow}</div>
-        <h3>${project.title}</h3>
-        <p>${project.description}</p>
-        <div class="tag-row">
-          ${project.tags.map((tag) => `<span class="tag">${tag}</span>`).join('')}
+        <div class="project-content">
+          <div class="eyebrow">${project.eyebrow}</div>
+          <h3>${project.title}</h3>
+          <p>${project.description}</p>
+          <div class="tag-row">
+            ${project.tags.map((tag) => `<span class="tag">${tag}</span>`).join('')}
+          </div>
+          ${repositories ? `<div class="project-links" aria-label="Project repositories">${repositories}</div>` : ''}
         </div>
+        <div class="project-media">${image}</div>
       </article>
-    `
+    `;
+        }
       )
       .join('');
   }

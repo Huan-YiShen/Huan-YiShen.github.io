@@ -5,23 +5,50 @@
     {
       "id": "artiq-tutorial",
       "eyebrow": "Tutorial",
-      "title": "ARTIQ usage tutorial",
+      "title": "ARTIQ Tutorial",
       "description": "A Tutorial for using ARTIQ to build scalable trapped ion system and experiments",
-      "tags": ["Quantum Control Software", "Python", "Software Development Cycle"]
+      "tags": ["Quantum Control Software", "Python", "WIP"],
+      "image": "project_img\\ARTIQ_tutorial.png",
+      "repositories": [{
+        "label": "Github Repo",
+        "url": "https://github.com/Huan-YiShen/ARTIQ-control-tutorials"
+      }]
     },
     {
-      "id": "campus-planner",
-      "eyebrow": "Application",
-      "title": "Campus Planner",
-      "description": "A scheduling assistant built to help students map courses, deadlines, and personal goals with a simple planning workflow.",
-      "tags": ["Python", "Automation", "Design"]
+      "id": "abstract-organizer",
+      "eyebrow": "Automation",
+      "title": "Abstract Organizer",
+      "description": "Scripts to organize and display large volume of paper and abstracts for conference proceedings",
+      "tags": ["Python", "Automation", "Text Editing"],
+      "image": "project_img\\abstract_organizer.png",
+      "repositories": [{
+        "label" : "Github Repo",
+        "url" : "https://github.com/Huan-YiShen/abstract-organizer"
+      }]
     },
     {
-      "id": "research-toolkit",
-      "eyebrow": "Platform",
-      "title": "Research Toolkit",
-      "description": "A reusable knowledge workspace for organizing notes, references, and exploration materials across research-intensive projects.",
-      "tags": ["Full-stack", "Systems", "Collaboration"]
+      "id": "Barium-toolkit",
+      "eyebrow": "Tools",
+      "title": "Barium Toolkit",
+      "description": "Tools used to work with barium ions in the context of trapped-ion experiments",
+      "tags": ["Experimental Physics", "Numerics", "WIP"],
+      "image": "project_img\\Barium_toolkit.png",
+      "repositories": [{
+        "label" : "Github Repo",
+        "url" : "https://github.com/Huan-YiShen/bairum-toolkit"
+      }]
+    }, 
+    {
+      "id": "distance-sensor-gimbal",
+      "eyebrow": "Demo",
+      "title": "Distance Sensor Gimbal",
+      "description": "Rapid prototype for a distance sensing gimbal (demostration only)",
+      "tags": ["STM Firmware", "Prototype Electronics", "Toy demo"],
+      "image": "project_img\\distance_sensor.png",
+      "repositories": [{
+        "label" : "Github Repo",
+        "url" : "https://github.com/Huan-YiShen/Distance-Sensor-Gimbal"
+      }]
     }
   ]
 }

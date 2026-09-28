@@ -5,6 +5,16 @@
     grid-template-columns: 1fr;
   }
 
+  .project-card {
+    grid-template-columns: 1fr;
+  }
+
+  .project-media,
+  .project-image,
+  .project-image-placeholder {
+    min-height: 180px;
+  }
+
   .topbar {
     flex-direction: column;
     align-items: flex-start;
